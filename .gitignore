@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+.env
+
+uploads/
+
+.DS_Store
+.idea/
+.vscode/
+
+node_modules/
+.next/
