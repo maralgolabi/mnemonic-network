@@ -11,15 +11,6 @@ from app.prompts.memory import MEMORY_PROMPT
 
 load_dotenv()
 
-print("BASE URL:", os.getenv("GAPGPT_BASE_URL"))
-print("KEY EXISTS:", bool(os.getenv("GAPGPT_API_KEY")))
-print(
-    "KEY START:",
-    os.getenv("GAPGPT_API_KEY")[:8]
-    if os.getenv("GAPGPT_API_KEY")
-    else None
-)
-
 
 model = ChatOpenAI(
     model="gpt-4o-mini",
